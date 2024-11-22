@@ -1,0 +1,14 @@
+<div>
+    <h2>Simulacion de Promesas y Observables</h2>
+
+    <h3>Datos de Promesa:</h3>
+    <p>{{datosPromesa || 'Cargando....'}}</p>
+
+    <h3>Datos de Observable:</h3>
+    <ul>
+        @for (dato of datosObservables; track $index ){
+            
+            <li>{{dato}}</li>
+        }
+    </ul>
+</div>
