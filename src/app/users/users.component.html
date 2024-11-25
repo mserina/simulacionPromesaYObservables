@@ -1,0 +1,10 @@
+<h2>Listado de Usuarios</h2>
+<ul class="list-group">
+    @for (usuarioIndividual of users; track $index)
+    {
+        <li class="list-group-item">
+          <b>Nombre de Usuario:</b> {{usuarioIndividual.first_name}} <br>
+          <b>Email:</b> {{usuarioIndividual.email}} <br>
+        </li>
+    }
+</ul>
